@@ -533,6 +533,7 @@ a[href="https://support.discord.com"] /* hide help */
 
 .userPopoutInner_c69a7b{
 	background-color: var(--bg-3);
+	border-radius: var(--roundness-l);
 }
 
 .userPopoutInner_c69a7b .defaultColor_e9e35f{
