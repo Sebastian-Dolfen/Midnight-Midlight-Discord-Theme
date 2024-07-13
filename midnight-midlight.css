@@ -260,6 +260,32 @@ svg[fill='#593695'] {
 	background-color: var(--streaming-indicator) !important;
 }
 
+.mainPageScroller_ed2e7b::before{
+	content: '';
+	position: absolute;
+	margin-top: -48px;
+	background: var(--bg-4);
+	width: 100%;
+	height: 48px;
+	border-radius: var(--roundness-xl) var(--roundness-xl) 0 0;
+}
+
+.mainPageScroller_ed2e7b{
+	position: relative;
+	overflow: visible !important;
+}
+
+.container_ed2e7b{
+	position: relative;
+	height: 100%;
+	overflow-y: scroll;
+	justify-content: flex-start;
+}
+
+.container_ed2e7b::-webkit-scrollbar{
+	display: none;
+}
+
 /* color fix filters */
 .container_aef5fd:last-child .icon_aef5fd /* explore discoverable servers icon color */ {
 	background-color: #3ba55c;
@@ -285,6 +311,7 @@ svg[fill='#593695'] {
 .searchResultsWrap_c2b47d /* allow overflow */ {
 	overflow: visible;
 }
+.mainPageScroller_ed2e7b::before,
 .chatContent_a7d72e::before /* main chat */,
 .membersWrap_cbd271::before /* member list */,
 .searchResultsWrap_c2b47d::before /* search results */,
