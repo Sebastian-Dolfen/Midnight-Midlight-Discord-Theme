@@ -329,6 +329,15 @@ svg[fill='#593695'] {
 .wrapper_d880dc.minimum_d880dc ~ .content_a7d72e .container__93316::before /* remove when in private call */ {
 	display: none;
 }
+
+.content_a7d72e:before{
+	box-shadow: none !important;
+}
+
+#family-center-tab .container_d576e9{
+	border-radius: 0;
+}
+
 .membersWrap_cbd271 /* fix members list height when not scroll */ {
 	height: 100%;
 }
