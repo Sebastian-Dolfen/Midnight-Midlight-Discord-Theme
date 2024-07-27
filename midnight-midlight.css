@@ -338,6 +338,10 @@ svg[fill='#593695'] {
 	border-radius: 0;
 }
 
+.itemCard_f02fcf{
+	border: none;
+}
+
 .membersWrap_cbd271 /* fix members list height when not scroll */ {
 	height: 100%;
 }
