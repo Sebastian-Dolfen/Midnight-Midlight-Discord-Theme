@@ -46,6 +46,9 @@
 	background: var(--bg-3) !important;
 }
 .folder_bc7085.hover_bc7085 /* folder opened on hover */, 
+.replyInput_d0fc0d,
+.chatHeaderBar_e2f46e,
+.divider_af45f8,
 #app-mount .outer_c0f6a6.interactive_c0f6a6:hover, #app-mount .outer_c0f6a6.active_c0f6a6 /* friend activity cards on hover */ {
 	background: var(--bg-2);
 }
@@ -459,7 +462,8 @@ a[href="https://support.discord.com"] /* hide help */
     background: transparent !important;
 }
 
-/* add rounded corners */
+/* add rounded corners */ 
+.userProfileInner_c69a7b /* inner profile panel */,
 .container_ee69e0 /* channel list */,
 .panels_a4d4d9 /* user panels */,
 .privateChannels_f0963d /* dms list */,
@@ -508,7 +512,6 @@ a[href="https://support.discord.com"] /* hide help */
 .userPanelInner_c69a7b{
 	background: var(--bg-4);
 }
-
 .userPanelInner_c69a7b .activity_cd74cc{
 	background: var(--bg-3);
 }
@@ -541,6 +544,7 @@ a[href="https://support.discord.com"] /* hide help */
 .contentWrapper_af5dbb /* emoji, sticker, gif pickers */,
 .footer_f9a4c9 /* edit modal footer */,
 .layerContainer_cd0de5 .root_f9a4c9 /* upload modal */,
+.horizontal_dc333f,
 .uploadModal_f82cc7 .footer_f82cc7 /* upload modal footer */ {
 	border-radius: var(--roundness-l);
 }
@@ -596,6 +600,7 @@ a[href="https://support.discord.com"] /* hide help */
 	background-color: var(--bg-mod-faint);
 }
 
+.member_a31c43,
 .channelTextArea_d0696b{
 	border-radius: var(--roundness-s);
 }
