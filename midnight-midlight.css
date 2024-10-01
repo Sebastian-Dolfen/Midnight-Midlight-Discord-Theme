@@ -35,6 +35,8 @@
 .wrapper_d880dc.minimum_d880dc /* private call */,
 .container_effbe2, .container__33507 /* emoji/sticker and gif picker searchbars */,
 #app-mount .uploadModal_f82cc7 /* upload modal */,
+.footer_aa1bff,
+.pageContainer_a9a262,
 .uploadModal_f82cc7 .footer_f82cc7 /* upload modal footer */ {
 	background: var(--bg-4);
 }
@@ -263,6 +265,7 @@ svg[fill='#593695'] {
 	background-color: var(--streaming-indicator) !important;
 }
 
+.pageContainer_a9a262:before,
 .mainPageScroller_ed2e7b::before{
 	content: '';
 	position: absolute;
@@ -272,6 +275,12 @@ svg[fill='#593695'] {
 	height: 48px;
 	border-radius: var(--roundness-xl) var(--roundness-xl) 0 0;
 }
+
+.pageContainer_a9a262{
+	border-radius: 0 0 var(--roundness-xl) var(--roundness-xl);
+}
+
+
 
 .mainPageScroller_ed2e7b{
 	position: relative;
